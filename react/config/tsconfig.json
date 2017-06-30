@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "outDir": "dist_react",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es6", "dom","esnext"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "experimentalDecorators": true,
+    "rootDir" : "../",
+    "baseUrl" : "./",
+    "paths": {
+        "*" : ["node_modules/@types/*", "*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "node",
+    "dist-node",
+    "dist-react"
+  ],
+  "types": [
+    "types"
+  ]
+}

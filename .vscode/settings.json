@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "boundary",
+	"editor.fontSize": 13,
+	"editor.tabSize": 4,
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"editor.detectIndentation": true,
+	"files.exclude": {
+		"node_modules/": true,
+		"dist-node/": true,
+		"dist-react/": true,
+		".vscode/": true,
+		".gitignore": true,
+		"tslint.json": true,
+		"README.md": true,
+		"package-lock.json": true
+	},
+	"typescript.tsdk": "./node_modules/typescript/lib"
+}
