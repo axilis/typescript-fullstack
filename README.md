@@ -1,2 +1,2 @@
 # typescript-fullstack-boilerplate
-Boilerplate for Node, Expres, React, Redux and TypeScript
+Boilerplate for Node, Express, React, Redux and TypeScript
