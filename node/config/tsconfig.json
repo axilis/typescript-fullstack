@@ -2,7 +2,6 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es6",
-        "noImplicitAny": false,
         "moduleResolution": "node",
         "sourceMap": true,
         "outDir": "../../dist-node",
@@ -11,9 +10,14 @@
             "*": [
                 "../../node_modules/*"
             ]
-        }
+        },
+        "typeRoots" : ["./typings"],
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
     },
     "include": [
-        "../src/**/*"
+        "../src/**/*",
+        "typings/**/*"
     ]
 }
