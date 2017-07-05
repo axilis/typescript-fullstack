@@ -55,7 +55,9 @@ npm install
 
 
 
-create a .env file in the project root where you will keep the environment variables. Using the environment variables is based on the dotenv package, whose details can be found here: https://github.com/motdotla/dotenv
+
+
+Create a .env file in the project root where you will keep the environment variables. Using the environment variables is based on the dotenv package, whose details can be found here: https://github.com/motdotla/dotenv
 
 Example `.env`
 
